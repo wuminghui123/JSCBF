@@ -6,6 +6,8 @@ This is the source code of following paper [1].
 
 The dataset used for training, validation and testing is 120,000 randomly selected images from the ImageNet dataset. More detailed notes will be uploaded further in the future.
 
+Note that we have done a power scaling of the channel energy and noise power in the code, and that 0 dB of SNR in the code is equivalent to a transmission power of 30 dBm as mentioned in the paper.
+
 For more information, please visit our website [gaozhen16.github.io](https://gaozhen16.eu.org/)
 
 If you have any questions, you can contact me by email: 1461610587@qq.com
