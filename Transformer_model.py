@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import Dataset
 import math
-import copy
+import copy 
 #=======================================================================================================================
 #=======================================================================================================================
 class TRANS_BLOCK(nn.Module): #输入信道输出 量化后的B比特反馈信息
